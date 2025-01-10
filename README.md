@@ -1,0 +1,2 @@
+# Kopo-script
+Kopo script
