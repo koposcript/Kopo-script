@@ -81,7 +81,7 @@ end)
 local gravityEnabled = true
 local gravityValue = workspace.Gravity
 
-createButton(MainFrame, "Escolha a leveza da Bola.", Color3.fromRGB(255, 69, 0), function()
+createButton(MainFrame, "Modifique o Peso.", Color3.fromRGB(255, 69, 0), function()
     gravityEnabled = not gravityEnabled
     if gravityEnabled then
         workspace.Gravity = gravityValue -- Возвращаем к изначальному значению
