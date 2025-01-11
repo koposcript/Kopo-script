@@ -50,11 +50,11 @@ addUICorner(Title, 10)
 local function createButton(parent, text, color, callback)
     local Button = Instance.new("TextButton")
     Button.Parent = parent
-    Button.Size = UDim2.new(1, -20, 0, 40)
+    Button.Size = UDim2.new(1, -10, 0, 20)
     Button.BackgroundColor3 = color
     Button.TextColor3 = Color3.fromRGB(255, 255, 255)
     Button.Font = Enum.Font.SourceSansBold
-    Button.TextSize = 14
+    Button.TextSize = 7
     Button.Text = text
     Button.MouseButton1Click:Connect(callback)
     addUICorner(Button, 10)
@@ -92,11 +92,11 @@ end)
 
 local GravityBox = Instance.new("TextBox")
 GravityBox.Parent = MainFrame
-GravityBox.Size = UDim2.new(1, -20, 0, 30)
+GravityBox.Size = UDim2.new(1, -10, 0, 15)
 GravityBox.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
 GravityBox.TextColor3 = Color3.fromRGB(255, 255, 255)
 GravityBox.Font = Enum.Font.SourceSansBold
-GravityBox.TextSize = 14
+GravityBox.TextSize = 7
 GravityBox.PlaceholderText = "Digite o valor do peso da bola."
 addUICorner(GravityBox, 10)
 
