@@ -25,7 +25,7 @@ local function addUICorner(instance, cornerRadius)
 end
 
 MainFrame.Parent = ScreenGui
-MainFrame.Size = UDim2.new(0, 160, 0, 160)
+MainFrame.Size = UDim2.new(0, 70, 0, 70)
 MainFrame.Position = UDim2.new(0, 185, 0, -10)
 MainFrame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 MainFrame.BorderSizePixel = 4
@@ -43,7 +43,7 @@ Title.Size = UDim2.new(1, 0, 0, 40)
 Title.BackgroundTransparency = 0.50
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.Font = Enum.Font.SourceSansBold
-Title.TextSize = 24
+Title.TextSize = 12
 Title.Text = "KopoScript V0.1"
 addUICorner(Title, 10)
 
