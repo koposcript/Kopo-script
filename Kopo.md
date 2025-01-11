@@ -25,7 +25,7 @@ local function addUICorner(instance, cornerRadius)
 end
 
 MainFrame.Parent = ScreenGui
-MainFrame.Size = UDim2.new(0, 130, 0, 130)
+MainFrame.Size = UDim2.new(0, 200, 0, 200)
 MainFrame.Position = UDim2.new(0, 185, 0, -10)
 MainFrame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 MainFrame.BorderSizePixel = 4
