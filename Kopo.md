@@ -26,7 +26,7 @@ end
 
 MainFrame.Parent = ScreenGui
 MainFrame.Size = UDim2.new(0, 195, 0, 195)
-MainFrame.Position = UDim2.new(0, 160, 0, -10)
+MainFrame.Position = UDim2.new(0, 185, 0, -10)
 MainFrame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 MainFrame.BorderSizePixel = 4
 MainFrame.ScrollBarThickness = 8
